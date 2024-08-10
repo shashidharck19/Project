@@ -1,7 +1,7 @@
 const { MongoClient } = require('mongodb');
 
 // Define your MongoDB connection URL and database name
-const url = "mongodb://localhost:27017";
+const url = "mongodb+srv://shashidharck:<password>@cluster0.d3zpp.mongodb.net/";
 const dbName = 'mydatabase';
 
 
