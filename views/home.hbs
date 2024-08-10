@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Disaster Preparedness & Response">
+    <meta name="keywords" content="Express, MongoDB, Geolocation, OpenWeatherMap, Node.js">
+    <meta name="author" content="MonoByte">
+    <!-- Open Graph Meta Tags for Social Media -->
+    <meta property="og:title" content="Disaster Preparedness & Response">
+    <meta property="og:description" content="Disaster Preparedness & Response">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.linkedin.com/in/shashidhar-c-k-205858251?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+    <meta property="og:image" content="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8tOrs3vTGPNgx_tpb8daohHzWBCLvV7rB2i1gzWM&usqp=CAE&s">
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Home - MonoByte">
+    <meta name="twitter:description" content="Disaster Preparedness & Response">
+    <meta name="twitter:image" content="https://help.twitter.com/content/dam/help-twitter/brand/logo.png">
+    <title>Disaster Preparedness & Response</title>
+    
+</head>
+<body>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100%;
+    overflow-x: hidden;
+    background-image: url(images/bg-1.jpg);
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #040404;
+}
+
+header {
+    background-color: rgba(51, 51, 51, 0.8);
+    background: transparent;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+nav {
+    background: transparent; /* Make the navigation bar background transparent */
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    border-radius: 8px;
+    text-align: center;
+    background-color: transparent;
+}
+
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: yellow;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 72px;
+    color: #FFFFFF;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+section {
+    padding: 20px;
+    margin: 30px;
+    background-color: rgba(255, 255, 255, 0.8); 
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #0077cc;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+ul li a {
+    color: #0077cc;
+    text-decoration: none;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+section#contact p {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+section#contact strong {
+    color: #0077cc;
+}
+
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #0077cc;
+    color: #fff;
+    
+}
+
+.back-to-top {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            display: none;
+            background-color: #0077cc;
+            color: #fff;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+}
+
+ .back-to-top:hover {
+    background-color: #005fa3;
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #0077cc;
+    color: #fff;
+    position: relative;
+}
+
+.footer-geolocation {
+    background-color: #040404;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    color: blue;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.footer-geolocation p {
+    margin: 0;
+}
+
+.footer-geolocation span {
+    color: white;
+    font-weight: bold;
+}
+
+
+    </style>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#solutions">Solutions</a></li>
+                <li><a href="#resources">Resources</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+         <title>Asteroid Font Style</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1><em>Be Prepared & Be Protected</em></h1>
+
+    </header>
+
+    <section id="home">
+        <h2>Emergency Management: Prevention, Preparedness, Response & Recovery</h2>
+        
+<p><b>Emergency Management</b></p>
+<p>Emergency Management is about managing risks to communities and the 
+environment. It is the core business of Emergency Services but every 
+individual and organisation has a part to play.
+
+<p><ins>Emergency Management is about:</ins></p>
+<ol><b>
+<li>Prevention</li>
+<li>Preparedness</li>
+<li>Response and</li>
+<li>Recovery</li>
+</b>
+</ol>
+<p>
+    Leaders in organisations need to know their roles and responsibilities in each 
+    phase of the emergency management cycle and lead their organisation through them.</p>
+
+    <P>
+    <ol>
+        <p><li><b>Prevention</b> – actions undertaken in advance. Sometimes this is referred to as mitigation. 
+            Examples include back-burning or constructing sea walls to protect from tidal waves, having 
+            alternative sources of electricity or alternative communication systems in place. Prevention 
+            activities should be happening all the time.</li></p>
+
+        <p><li><b>Preparedness</b> – making arrangements, creating and testing plans, training, educating and sharing information 
+            to prepare communities should an emergency eventuate. These are also ACTIONS and they are happening all the time.</li></p>
+
+        <p><li><b>Response</b> – the assistance and intervention during or immediately after an emergency. Focus is on saving lives and 
+            protecting community assets (buildings, roads, animals, crops, infrastructure). Usually measured in hours, days or weeks.</li></p>
+
+        <p><li><b>Recovery</b> – the coordinated process of supporting emergency-affected communities in reconstruction of physical infrastructure 
+            and restoration of emotional, social, economic and physical wellbeing. Usually measured in months and/or years.</li></p>
+
+    </ol>
+    </P>
+
+    <p><b>The Cycle</b></p>
+   
+
+    <p>The cyclical nature of this model is important as it highlights that managing emergencies happens all the time, not just during 
+        ‘the season’ (for bushfires and cyclones, for example). It also shows the way the phases blend into each other and overlap rather 
+        than being discrete categories.</p> 
+        
+    <p>It is useful to be familiar with the four phases as they are part of the everyday language of the 
+        emergency management sector and inform the design and allocation of responsibilities in emergency management planning. 
+        There are variations of this model in use throughout Australia. Emergency Management Victoria, for example, refer to a three phase 
+        emergency management cycle which includes prevention, recovery and response. Whilst the specific models may vary, they cover the same tasks.
+    </P>
+    <p><b><h3>Summary</h3></b></p>
+        <p>
+    Emergency Management is about managing risks to communities and the environment. It is the core business of Emergency Services but every 
+    individual and organisation has a part to play. Emergency Management is about: Prevention, Preparedness, Response and Recovery. Leaders in organisations 
+    need to know their roles and responsibilities in each phase of the emergency management cycle and lead their organisation through them.</p>
+    </section>
+
+    <section id="solutions">
+        <h2>Leadership for Disasters and Emergencies</h2>
+        <p><b><h3>Summary</h3></b></p>
+    <p>Leadership is essential to build an organisation that can “bounce back” in disasters and emergencies.
+        </p>
+
+<p><ins>Leadership will:</ins></p>
+
+    <ol style="list-style-type:circle"><b>
+        <li>Commit to disaster resilience work and provide a mandate for action</li>
+        <li>Agree on the objectives to be achieved</li>
+        <li>Engage and communicate with everyone in the organisation</li>
+        <li>Ensure timely and appropriate decisions are made in disasters and emergencies.</li>
+        </b>
+    </ol>
+
+<p><b><h3>Creating a Mandate for Action</h3></b></p>
+<p>Changing an organisational culture starts from the top.</p>
+<p>Create a mandate for action by developing a disaster resilience statement.</p>
+<p>This statement should be created by the board or executive management team in your organisation.</p>
+<p>In your statement articulate why building your organisation's resilience is a priority.  You may like to 
+include your own definition of resilience and link it to your mission statement and strategic goals.</p>
+<p>If you're not sure where to start, take a look at the template we have created in the ‘Downloads’ section below.  
+The template includes some sample text to help you develop your own resilience statement.  The statement will have 
+greater resonance if it is specific to your organisation so try your hand at writing your own, unique one. For example:</p>
+<p>Every year Australian communities are subjected to the damaging impacts of emergencies and disasters. The effects of 
+these events on people experiencing disadvantage and the organisations who work with them serve as a reminder of our need to 
+continuously strengthen our resilience.</p>
+<p>We recognise that if our organisation is put under strain or ceases operation because of an emergency then our clients will be impacted. 
+They will lose important services just at the time when they themselves may be suffering acute difficulty because of the emergency.</p>
+<p>Though emergencies and disasters may be infrequent, our services are especially important before, during and after an emergency because 
+many of our clients are beyond the reach of other services; we provide an essential lifeline of support. Furthermore, we appreciate that 
+climate change may make extreme weather events more severe and more frequent.</p>
+<p>We therefore recognise that preparedness for extreme weather events is a priority for us and our clients.</p>
+
+<hr>
+
+<p><b><h3>Agree on the Objectives to be Achieved</h3></b></p>
+<p>What are your objectives in relation to disasters and emergencies?</p>
+
+<ol style="list-style-type:circle"><em>
+        <li>What services are essential that you will maintain?</li>
+        <li>What services will you limit?</li>
+        <li>What are you wanting to achieve in the community?</li>
+        <li>Staff and volunteer training?</li>
+        </em>
+    </ol>
+
+<p>Refer to your organisation's mission, values and goals and strategic priorities and then consider questions such as:</p>
+
+<ol style="list-style-type:circle"><em>
+        <li>Which of your services would be essential or non-essential during and immediately after an emergency?</li>
+        <li>Which of your services are dependent upon other organisations or businesses? 
+            (for example suppliers of critical items such as food if you provide meals to clients)</li>
+        <li>Which services do you provide that no other organisation provides in your community? Of these which are essential?</li>
+        <li>Which personnel are critical in the delivery of your essential services?</li>
+        <li>How would your clients or beneficiaries be impacted by your inability to deliver services?</li>
+        <li>What laws, rules, regulations or standards apply to your organisation in relation to requirements to provide services?</li>
+        </em>
+    </ol>
+
+
+<p>In the light of discussion of these and related questions what are your objectives in relation to disasters and emergencies. For example</p>
+<p>The objectives of our Disasters and emergencies plan are:</p>
+
+<ol><em>
+<li>We can provide an adequate level of service to our clients before, during and after an emergency</li>
+<li>Our clients are supported to build their disaster resilience by preparing for disasters and emergencies</li>
+<li>Our staff and volunteers are well prepared to cope with a disaster or emergency</li>
+<li>Through strengthening our organisational disaster resilience we strengthen the disaster resilience of our whole community</li>
+<li>Our organisation is well positioned to work with our community to ‘build back better’ after an emergency in particular we will have strong relationships with...</li>
+</em>
+</ol>
+
+<hr>
+
+<p><b><h3>Lead Engagment and Communication</h3></b></p>
+<p>Your people are your organisation’s greatest asset.</p>
+<p>In times of disasters your people need to pull together more than ever. If your staff are engaged, work well as a team 
+    and feel valued they are much more likely to help your organisation work through the strain of a disaster or emergency.</p>
+<p>If your staff and volunteers are not engaged or don’t feel appreciated they will be less much more likely to help your 
+    organisation work through the strain of a disaster or emergency.</p>
+<p>However, even though this engagement, working well as a team and feeling valued is very important it is insufficient in 
+    dealing with disasters. Staff and volunteers must be engaged with prevention and planning for disasters and emergencies before they happen.</p>
+<p>What are the processes you will use to engage staff and volunteers in prevention and planning for disasters and emergencies?</p>
+
+<ol style="list-style-type:circle"><em>
+        <li>Are there existing structures and committees than can be used?</li>
+        <li>Are new structures or committees required?</li>
+        <li>Are the local interagencies, networks or local emergence management forums staff need to be engaged with?</li>
+        </em>
+    </ol>
+
+<p>What are the processes you will use to communicate with staff and volunteers:</p>
+
+<ol style="list-style-type:circle"><em>
+        <li>In planning for disasters and emergencies?</li>
+        <li>In disasters and emergencies?</li>
+        </em>
+    </ol>
+
+<hr>
+
+<p><b><h3>Decision Making During Disasters and Emergencies</h3></b></p>
+<p>Decisions will need to be made quickly and confidently during an emergency to ensure your people and your organisation 
+respond to risks and events appropriately. Two key issues are:</p>
+
+<ol style="list-style-type:circle"><em>
+        <li>Are decisions being made consistent with the organisation’s mission, values and goals?</li>
+        <li>In disasters and emergencies?</li>
+        </em>
+    </ol>
+
+<p>In a disaster or emergency the best decisions will be made when everyone is working from the organisation’s mission, values 
+and goals. How confident are you that these are fully understood by all staff and volunteers?</p>
+<p>How confident are you that that the objectives to be achieved in disasters and emergencies are fully understood by all staff and volunteers?</p>
+<p>In times of emergency your staff and volunteers may have to make decisions without senior managers available. To do this well:</p>
+
+<ol style="list-style-type:circle"><em>
+        <li>They need experience in decision making.</li>
+        <li>They need to know before a disaster or emergency the lines of accountability and delegations that apply in disasters and emergencies.</li>
+        </em>
+    </ol>
+
+    </section>
+
+    <section id="resources">
+        <h2>Resources</h2>
+        <p>Access reliable information and tools to stay informed and connected during a disaster.</p>
+        <ul>
+        
+         <li><a href="https://indianhelpline.com/" target="_blank" rel="noopener noreferrer">Emergency Contacts</a></li>
+        <li><a href="https://www.ndma.gov.in/" target="_blank" rel="noopener noreferrer">Real-Time Alerts</a></li>
+        <li><a href="https://prasarbharati.gov.in/homepage-air/" target="_blank" rel="noopener noreferrer">Communication Channels</a></li>
+        <li><a href="https://www.ndrf.gov.in/" target="_blank" rel="noopener noreferrer">Evacuation Plans</a></li>
+        
+        </ul>
+    </section>
+
+     <section id="about">
+        <h2>About Us</h2>
+        <p>We are dedicated to helping communities prepare for and respond to natural disasters. 
+            Our platform offers up-to-date information, educational content, and communication tools to 
+            ensure that everyone is ready when disaster strikes.</p>
+    </section>
+
+    <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Have questions or need assistance? Get in touch with us:</p>
+    <p><strong>Name:</strong> Shashidhar C K</p>
+    <p><strong>Email:</strong> shashidharck19@gmail.com</p>
+    <p><strong>Phone:</strong> +91 9380504094</p>
+</section>
+
+
+    <footer>
+        <p>&copy; 2024 Disaster Preparedness & Response. All rights reserved.</p>
+    </footer>
+    <button class="back-to-top" onclick="scrollToTop()">↑ Back to Top</button>
+
+    <script>
+        window.onscroll = function() {
+            scrollFunction();
+        };
+
+        function scrollFunction() {
+            const backToTopButton = document.querySelector(".back-to-top");
+            if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+                backToTopButton.style.display = "block";
+            } else {
+                backToTopButton.style.display = "none";
+            }
+        }
+
+        function scrollToTop() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+
+<script>
+    async function fetchGeolocation() {
+        try {
+            const response = await fetch('/geolocation');
+            const data = await response.json();
+            console.log('Geolocation data:', data);
+        } catch (error) {
+            console.error('Error fetching geolocation data:', error);
+        }
+    }
+
+    // Call this function to fetch geolocation data when needed
+    fetchGeolocation();
+</script>
+<div class="footer-geolocation">
+    {{#if geolocation}}
+    <p><span>IP Address:</span> {{geolocation.ip}}</p>
+    <p><span>Country:</span> {{geolocation.country_name}}</p>
+    <p><span>City:</span> {{geolocation.city}}</p>
+    <p><span>Latitude:</span> {{geolocation.latitude}}</p>
+    <p><span>Longitude:</span> {{geolocation.longitude}}</p>
+    {{else}}
+    <p>Geolocation data is not available.</p>
+    {{/if}}
+</div>
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Your Site Name",
+  "url": "http://mywebsite.com/",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "http://mywebsite.com/search?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
+
+</body>
+</html>
